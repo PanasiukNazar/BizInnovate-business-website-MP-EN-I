@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>BizInnovate</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="" name="keywords" />
+        <meta content="" name="description" />
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Icon Font Stylesheet -->
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet" />
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div
+            id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+        >
+            <div
+                class="spinner-border text-primary"
+                style="width: 3rem; height: 3rem"
+                role="status"
+            >
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar Start -->
+        <nav
+            class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0"
+        >
+            <a
+                href="index.html"
+                class="navbar-brand d-flex align-items-center border-end px-4 px-lg-5"
+            >
+                <h2 class="m-0 text-primary">BizInnovate</h2>
+            </a>
+            <button
+                type="button"
+                class="navbar-toggler me-4"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto p-4 p-lg-0">
+                    <a href="index.html" class="nav-item nav-link active"
+                        >Home</a
+                    >
+                    <a href="about.html" class="nav-item nav-link">About</a>
+                    <a href="service.html" class="nav-item nav-link">Service</a>
+                    <a href="testimonial.html" class="nav-item nav-link"
+                        >Testimonial</a
+                    >
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                </div>
+                <a
+                    href="contact.html"
+                    class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block"
+                    >Get A Quote<i class="fa fa-arrow-right ms-3"></i
+                ></a>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+
+        <!-- Carousel Start -->
+        <div class="container-fluid p-0 pb-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="owl-carousel header-carousel position-relative">
+                <div
+                    class="owl-carousel-item position-relative"
+                    data-dot="<img src='img/carousel-1.jpg'>"
+                >
+                    <img class="img-fluid" src="img/carousel-1.jpg" alt="" />
+                    <div class="owl-carousel-inner">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-10 col-lg-8">
+                                    <h1
+                                        class="display-2 text-white animated slideInDown"
+                                    >
+                                        Unlocking Innovation
+                                    </h1>
+                                    <p
+                                        class="fs-5 fw-medium text-white mb-4 pb-3"
+                                    >
+                                        Discover the latest trends and
+                                        strategies in business innovation at our
+                                        conference. Description: Join us for a
+                                        deep dive into the world of innovation,
+                                        where industry leaders will share their
+                                        insights on emerging technologies and
+                                        groundbreaking business models.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="owl-carousel-item position-relative"
+                    data-dot="<img src='img/carousel-2.jpg'>"
+                >
+                    <img class="img-fluid" src="img/carousel-2.jpg" alt="" />
+                    <div class="owl-carousel-inner">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-10 col-lg-8">
+                                    <h1
+                                        class="display-2 text-white animated slideInDown"
+                                    >
+                                        Networking Opportunities
+                                    </h1>
+                                    <p
+                                        class="fs-5 fw-medium text-white mb-4 pb-3"
+                                    >
+                                        Connect with industry leaders and
+                                        like-minded professionals to expand your
+                                        network. Description: Build valuable
+                                        connections during our structured
+                                        networking sessions and informal
+                                        meet-and-greet opportunities. Meet
+                                        potential collaborators, partners, and
+                                        mentors who can help propel your
+                                        business forward.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="owl-carousel-item position-relative"
+                    data-dot="<img src='img/carousel-3.jpg'>"
+                >
+                    <img class="img-fluid" src="img/carousel-3.jpg" alt="" />
+                    <div class="owl-carousel-inner">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-10 col-lg-8">
+                                    <h1
+                                        class="display-2 text-white animated slideInDown"
+                                    >
+                                        Expert Insights
+                                    </h1>
+                                    <p
+                                        class="fs-5 fw-medium text-white mb-4 pb-3"
+                                    >
+                                        Hear from renowned experts who will
+                                        share their experiences and strategies
+                                        for navigating today's complex business
+                                        landscape. Participate in engaging panel
+                                        discussions that tackle pressing topics
+                                        and provide actionable insights to help
+                                        you stay ahead of the curve.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Carousel End -->
+
+        <!-- Feature Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5">
+                    <div
+                        class="col-md-6 col-lg-3 wow fadeIn"
+                        data-wow-delay="0.1s"
+                    >
+                        <div class="d-flex align-items-center mb-4">
+                            <div
+                                class="btn-lg-square bg-primary rounded-circle me-3"
+                            >
+                                <i class="fa fa-users text-white"></i>
+                            </div>
+                            <h1 class="mb-0" data-toggle="counter-up">3453</h1>
+                        </div>
+                        <h5 class="mb-3">Happy Customers</h5>
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-3 wow fadeIn"
+                        data-wow-delay="0.3s"
+                    >
+                        <div class="d-flex align-items-center mb-4">
+                            <div
+                                class="btn-lg-square bg-primary rounded-circle me-3"
+                            >
+                                <i class="fa fa-check text-white"></i>
+                            </div>
+                            <h1 class="mb-0" data-toggle="counter-up">234</h1>
+                        </div>
+                        <h5 class="mb-3">Project Done</h5>
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-3 wow fadeIn"
+                        data-wow-delay="0.5s"
+                    >
+                        <div class="d-flex align-items-center mb-4">
+                            <div
+                                class="btn-lg-square bg-primary rounded-circle me-3"
+                            >
+                                <i class="fa fa-award text-white"></i>
+                            </div>
+                            <h1 class="mb-0" data-toggle="counter-up">813</h1>
+                        </div>
+                        <h5 class="mb-3">Awards Win</h5>
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-3 wow fadeIn"
+                        data-wow-delay="0.7s"
+                    >
+                        <div class="d-flex align-items-center mb-4">
+                            <div
+                                class="btn-lg-square bg-primary rounded-circle me-3"
+                            >
+                                <i class="fa fa-users-cog text-white"></i>
+                            </div>
+                            <h1 class="mb-0" data-toggle="counter-up">56</h1>
+                        </div>
+                        <h5 class="mb-3">Expert Workers</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Feature Start -->
+
+        <!-- About Start -->
+        <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
+            <div class="container about px-lg-0">
+                <div class="row g-0 mx-lg-0">
+                    <div
+                        class="col-lg-6 ps-lg-0 wow fadeIn"
+                        data-wow-delay="0.1s"
+                        style="min-height: 400px"
+                    >
+                        <div class="position-relative h-100">
+                            <img
+                                class="position-absolute img-fluid w-100 h-100"
+                                src="img/approach.jpg"
+                                style="object-fit: cover"
+                                alt=""
+                            />
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 about-text py-5 wow fadeIn"
+                        data-wow-delay="0.5s"
+                    >
+                        <div class="p-lg-5 pe-lg-0">
+                            <h6 class="text-primary">Our Approach</h6>
+                            <h1 class="mb-4">
+                                Our Approach to Creating Impactful Business
+                                Conferences That Foster Innovation and
+                                Collaboration
+                            </h1>
+                            <p>
+                                At the heart of our business conferences lies a
+                                commitment to fostering an environment where
+                                innovation, collaboration, and knowledge-sharing
+                                can thrive. We understand that today’s business
+                                landscape is more dynamic and interconnected
+                                than ever before, and our approach reflects this
+                                reality. Our conferences are meticulously
+                                designed to address the unique challenges and
+                                opportunities faced by professionals across
+                                various industries. From the moment attendees
+                                arrive, we focus on creating an inclusive
+                                atmosphere that encourages interaction and
+                                engagement. We believe that the most valuable
+                                insights come not only from expert speakers but
+                                also from the diverse perspectives of
+                                participants. Each conference features a
+                                carefully curated agenda that combines keynote
+                                presentations, panel discussions, and
+                                interactive workshops, ensuring a rich learning
+                                experience. Our speakers are industry leaders
+                                and pioneers, handpicked for their ability to
+                                inspire and educate. They share real-world
+                                experiences and case studies, providing
+                                practical strategies that attendees can
+                                implement in their own organizations.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+        <!-- Service Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div
+                    class="text-center mx-auto mb-5 wow fadeInUp"
+                    data-wow-delay="0.1s"
+                    style="max-width: 600px"
+                >
+                    <h6 class="text-primary">Why us</h6>
+                    <h1 class="mb-4">
+                        Why Choose Us for Your Business Conference Experience?
+                    </h1>
+                    <p>
+                        When it comes to selecting a business conference, the
+                        choice can significantly impact your professional growth
+                        and networking opportunities. Our conferences stand out
+                        for their commitment to excellence, relevance, and
+                        participant satisfaction. We understand that your time
+                        is valuable, which is why we prioritize creating
+                        meaningful experiences that equip you with the
+                        knowledge, skills, and connections you need to thrive in
+                        today’s competitive landscape. By choosing us, you are
+                        not only investing in a conference but also in your
+                        future success. We strive to deliver unparalleled value
+                        through a carefully curated program, expert speakers,
+                        and a collaborative environment that fosters engagement
+                        and innovation.
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div
+                        class="col-md-6 col-lg-4 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <div class="service-item rounded overflow-hidden">
+                            <img
+                                class="img-fluid"
+                                src="img/img-work-with-1.jpg"
+                                alt=""
+                            />
+                            <div class="position-relative p-4 pt-0">
+                                <h4 class="mb-3 mt-3">Expert-Led Sessions</h4>
+                                <p>
+                                    Our conferences feature a lineup of industry
+                                    leaders and seasoned experts who share their
+                                    insights and experiences. Through engaging
+                                    keynote presentations and interactive
+                                    workshops, you’ll gain access to valuable
+                                    knowledge that can be immediately applied to
+                                    your business challenges.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-4 wow fadeInUp"
+                        data-wow-delay="0.3s"
+                    >
+                        <div class="service-item rounded overflow-hidden">
+                            <img
+                                class="img-fluid"
+                                src="img/img-work-with-2.jpg"
+                                alt=""
+                            />
+                            <div class="position-relative p-4 pt-0">
+                                <h4 class="mb-3 mt-3">
+                                    Tailored Networking Opportunities
+                                </h4>
+                                <p>
+                                    We believe that the power of connection is
+                                    essential for professional growth. Our
+                                    conferences provide structured networking
+                                    opportunities, allowing you to connect with
+                                    like-minded professionals, potential
+                                    partners, and industry leaders. Build
+                                    relationships that can lead to collaboration
+                                    and new ventures.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-4 wow fadeInUp"
+                        data-wow-delay="0.5s"
+                    >
+                        <div class="service-item rounded overflow-hidden">
+                            <img
+                                class="img-fluid"
+                                src="img/img-work-with-3.jpg"
+                                alt=""
+                            />
+                            <div class="position-relative p-4 pt-0">
+                                <h4 class="mb-3 mt-3">
+                                    Focus on Practical Outcomes
+                                </h4>
+                                <p>
+                                    Our approach is centered on delivering
+                                    actionable insights that you can implement
+                                    right away. Each session is designed to
+                                    address real-world challenges, ensuring you
+                                    leave with not only theoretical knowledge
+                                    but also practical strategies and tools to
+                                    enhance your business operations.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Service End -->
+
+        <!-- Feature Start -->
+        <div class="container-fluid bg-light overflow-hidden my-5 px-lg-0">
+            <div class="container feature px-lg-0">
+                <div class="row g-0 mx-lg-0">
+                    <div
+                        class="col-lg-6 feature-text py-5 wow fadeIn"
+                        data-wow-delay="0.1s"
+                    >
+                        <div class="p-lg-5 ps-lg-0">
+                            <h6 class="text-primary">Our benefits</h6>
+                            <h1 class="mb-4">
+                                Empowering Your Business Journey Through Dynamic
+                                Conferences
+                            </h1>
+                            <p class="mb-4 pb-2">
+                                Participating in our business conferences offers
+                                numerous benefits that can significantly enhance
+                                your professional development and organizational
+                                growth. We focus on creating an environment
+                                where knowledge exchange, networking, and
+                                practical skill-building take center stage. By
+                                attending, you'll gain access to invaluable
+                                insights from industry leaders, foster
+                                meaningful connections with peers, and acquire
+                                practical tools that you can implement in your
+                                business right away. Our commitment to
+                                delivering high-quality content ensures that you
+                                leave with fresh perspectives and actionable
+                                strategies tailored to your unique challenges.
+                            </p>
+                            <div class="row g-4">
+                                <div class="col-6">
+                                    <div class="d-flex align-items-center">
+                                        <div
+                                            class="btn-lg-square bg-primary rounded-circle"
+                                        >
+                                            <i
+                                                class="fa fa-check text-white"
+                                            ></i>
+                                        </div>
+                                        <div class="ms-4">
+                                            <p class="mb-0">Expert</p>
+                                            <h5 class="mb-0">Insights</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="d-flex align-items-center">
+                                        <div
+                                            class="btn-lg-square bg-primary rounded-circle"
+                                        >
+                                            <i
+                                                class="fa fa-user-check text-white"
+                                            ></i>
+                                        </div>
+                                        <div class="ms-4">
+                                            <p class="mb-0">Networking</p>
+                                            <h5 class="mb-0">Opportunities</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="d-flex align-items-center">
+                                        <div
+                                            class="btn-lg-square bg-primary rounded-circle"
+                                        >
+                                            <i
+                                                class="fa fa-drafting-compass text-white"
+                                            ></i>
+                                        </div>
+                                        <div class="ms-4">
+                                            <p class="mb-0">Skill</p>
+                                            <h5 class="mb-0">Development</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="d-flex align-items-center">
+                                        <div
+                                            class="btn-lg-square bg-primary rounded-circle"
+                                        >
+                                            <i
+                                                class="fa fa-headphones text-white"
+                                            ></i>
+                                        </div>
+                                        <div class="ms-4">
+                                            <p class="mb-0">Actionable</p>
+                                            <h5 class="mb-0">Strategies</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 pe-lg-0 wow fadeIn"
+                        data-wow-delay="0.5s"
+                        style="min-height: 400px"
+                    >
+                        <div class="position-relative h-100">
+                            <img
+                                class="position-absolute img-fluid w-100 h-100"
+                                src="img/why-choose.jpg"
+                                style="object-fit: cover"
+                                alt=""
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Feature End -->
+
+        <!-- Blog Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div
+                    class="text-center mx-auto mb-5 wow fadeInUp"
+                    data-wow-delay="0.1s"
+                    style="max-width: 600px"
+                >
+                    <h6 class="text-primary">Our Latest Blog</h6>
+                    <h1>Insights and Trends in Business Conferences</h1>
+                    <p class="mb-4">
+                        Stay informed with our latest blog, where we explore the
+                        evolving landscape of business conferences and share
+                        valuable insights that can enhance your conference
+                        experience. From tips on maximizing networking
+                        opportunities to discussions on emerging industry
+                        trends, our blog serves as a resource for professionals
+                        looking to make the most of their participation. Whether
+                        you’re preparing for your first conference or are a
+                        seasoned attendee, our articles aim to provide practical
+                        advice and thought-provoking content to help you
+                        navigate the world of business events effectively.
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div
+                        class="col-lg-6 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <div class="team-item rounded overflow-hidden">
+                            <div class="d-flex">
+                                <img
+                                    class="img-fluid w-100"
+                                    style="
+                                        border-radius: 0;
+                                        height: 500px;
+                                        object-fit: cover;
+                                    "
+                                    class="img-fluid w-75"
+                                    src="img/team-2.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="p-4">
+                                <h5>Maximizing Your Networking Potential</h5>
+                                <span>
+                                    Discover strategies to enhance your
+                                    networking experience at conferences. This
+                                    article provides tips on how to approach new
+                                    contacts, follow up effectively, and
+                                    leverage social media to expand your
+                                    connections both during and after the
+                                    event.</span
+                                >
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-6 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.3s"
+                    >
+                        <div class="team-item rounded overflow-hidden">
+                            <div class="d-flex">
+                                <img
+                                    class="img-fluid w-100"
+                                    style="
+                                        border-radius: 0;
+                                        height: 500px;
+                                        object-fit: cover;
+                                    "
+                                    src="img/team-3.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="p-4">
+                                <h5>Top Trends in Business Conferences</h5>
+                                <span>
+                                    Explore the latest trends shaping the future
+                                    of business conferences. From virtual events
+                                    to hybrid formats, this article discusses
+                                    how technology and changing attendee
+                                    expectations are influencing the way
+                                    conferences are organized and
+                                    experienced.</span
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Blog End -->
+
+        <!-- Footer Start -->
+        <div
+            class="container-fluid bg-dark text-body footer pt-5 wow fadeIn"
+            data-wow-delay="0.1s"
+        >
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-white mb-4">BizInnovate</h5>
+                        <p>
+                            Thank you for visiting our platform dedicated to
+                            empowering professionals through transformative
+                            business conferences. We are committed to providing
+                            valuable resources, insights, and networking
+                            opportunities that enhance your experience and
+                            foster growth in your career and organization.
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-white mb-4">Address</h5>
+                        <p class="mb-2">
+                            <i class="fa fa-map-marker-alt me-3"></i>6 Susman
+                            Ave, Blairgowrie, Randburg, 2194, South Africa
+                        </p>
+                        <p class="mb-2">
+                            <i class="fa fa-phone-alt me-3"></i>+27114765104
+                        </p>
+                        <p class="mb-2">
+                            <i class="fa fa-envelope me-3"></i
+                            >biz_innovate@gmail.com
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-white mb-4">Quick Links</h5>
+                        <a class="btn btn-link" href="index.html">Home</a>
+                        <a class="btn btn-link" href="about.html">About Us</a>
+                        <a class="btn btn-link" href="contact.html"
+                            >Contact Us</a
+                        >
+                        <a class="btn btn-link" href="service.html"
+                            >Our Services</a
+                        >
+                        <a class="btn btn-link" href="terms-of-use.html"
+                            >Terms of use</a
+                        >
+                        <a class="btn btn-link" href="privacy-policy.html"
+                            >Privacy policy</a
+                        >
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h5 class="text-white mb-4">Project Gallery</h5>
+                        <div class="row g-2">
+                            <div class="col-4">
+                                <img
+                                    class="img-fluid rounded"
+                                    src="img/gallery-1.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="col-4">
+                                <img
+                                    class="img-fluid rounded"
+                                    src="img/gallery-2.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="col-4">
+                                <img
+                                    class="img-fluid rounded"
+                                    src="img/gallery-3.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="col-4">
+                                <img
+                                    class="img-fluid rounded"
+                                    src="img/gallery-4.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="col-4">
+                                <img
+                                    class="img-fluid rounded"
+                                    src="img/gallery-5.jpg"
+                                    alt=""
+                                />
+                            </div>
+                            <div class="col-4">
+                                <img
+                                    class="img-fluid rounded"
+                                    src="img/gallery-6.jpg"
+                                    alt=""
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="col-lg-3 col-md-6">
+                        <h5 class="text-white mb-4">Newsletter</h5>
+                        <p>
+                            Dolor amet sit justo amet elitr clita ipsum elitr
+                            est.
+                        </p>
+                        <div
+                            class="position-relative mx-auto"
+                            style="max-width: 400px"
+                        >
+                            <input
+                                class="form-control border-0 w-100 py-3 ps-4 pe-5"
+                                type="text"
+                                placeholder="Your email"
+                            />
+                            <button
+                                type="button"
+                                class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2"
+                            >
+                                SignUp
+                            </button>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Back to Top -->
+        <a
+            href="#"
+            class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"
+            ><i class="bi bi-arrow-up"></i
+        ></a>
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">Cookie Consent</h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    This website uses cookies to provide you with a superior and
+                    more relevant browsing experience on the site.
+                    <a href="#">Learn more...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Accept</button>
+                <button class="cookie-button" id="declineBtn">Decline</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/isotope/isotope.pkgd.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>
